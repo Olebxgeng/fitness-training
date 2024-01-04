@@ -20,10 +20,10 @@ const Footer = () => {
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
                 <div className="footer_socials">
-                    <a href="https://linkedin.com/" target="_blank" rel="norefferer noopner"><FaLinkedin/></a>
-                    <a href="https://Facebook.com/" target="_blank" rel="norefferer noopner"><FaFacebook/></a>
-                    <a href="https://Twitter.com/" target="_blank" rel="norefferer noopner"><FaXTwitter/></a>
-                    <a href="https://Instagram.com/" target="_blank" rel="norefferer noopner"><FaInstagram /></a>
+                    <a href="https://linkedin.com/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
+                    <a href="https://Facebook.com/" target="_blank" rel="noreferrer"><FaFacebook/></a>
+                    <a href="https://Twitter.com/" target="_blank" rel="noreferrer"><FaXTwitter/></a>
+                    <a href="https://Instagram.com/" target="_blank" rel="noreferrer"><FaInstagram /></a>
                 </div>
             </article>
             <article>

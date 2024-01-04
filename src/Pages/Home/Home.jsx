@@ -4,7 +4,7 @@ import Programs from "../../Components/Programs"
 import Values from "../../Components/Values"
 import FAQs from "../../Components/FAQs"
 import Testimonials from "../../Components/Testimonials"
-import Footer from "../../Components/Footer"
+
 
 const Home = () => {
   return (
