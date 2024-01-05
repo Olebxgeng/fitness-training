@@ -35,7 +35,7 @@ body{
   overflow-x: hidden;
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
-  background: var(--color-gray-600);
+  background: var(--color-gray-600) url("./images/bg_texture.png");
 }
 body::-webkit-scrollbar { 
   display: none;  /* Safari and Chrome */
