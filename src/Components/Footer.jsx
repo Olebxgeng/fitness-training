@@ -4,11 +4,16 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
-
+import { useEffect } from "react";
 
 
 
 const Footer = () => {
+
+    useEffect (() => {
+        window.scrollTo({top:0, left:0})
+    }, [])
+
   return (
     <footer>
         <div className="container footer_container">
@@ -28,11 +33,11 @@ const Footer = () => {
             </article>
             <article>
                 <h4>Permalinks</h4>
-                <Link to="/about">About</Link>
-                <Link to="/plans">Plans</Link>
-                <Link to="/trainers">Trainers</Link>
-                <Link to="/gallery">Gallery</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/about" onClick={() => { window.window.scrollTo({top:0, left:0})}}>About</Link>
+                <Link to="/plans" onClick={() => { window.window.scrollTo({top:0, left:0})}}>Plans</Link>
+                <Link to="/trainers" onClick={() => { window.window.scrollTo({top:0, left:0})}}>Trainers</Link>
+                <Link to="/gallery" onClick={() => { window.window.scrollTo({top:0, left:0})}}>Gallery</Link>
+                <Link to="/contact" onClick={() => { window.window.scrollTo({top:0, left:0})}}>Contact</Link>
             </article>
             <article>
                 <h4>Insights</h4>

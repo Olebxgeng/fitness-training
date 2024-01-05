@@ -1,4 +1,4 @@
-import {useState} from 'react'
+import {useState, useEffect} from 'react'
 import {Link, NavLink} from "react-router-dom"
 import Logo from "../images/logo.png"
 import { links } from "../data"
@@ -9,6 +9,9 @@ import "./Navbar.css"
 const Navbar = () => {
 
     const [isNavShowing, setIsNavShowing] = useState(false)
+    useEffect (() => {
+        window.scrollTo({top:0, left:0})
+    }, [])
 
   return (
     <nav>
@@ -20,7 +23,7 @@ const Navbar = () => {
                 {
                     links.map(({name, path}, index) =>{
                         return(
-                            <li key={index}>
+                            <li key={index} onClick={() => { window.window.scrollTo({top:0, left:0})}}>
                                 <NavLink to={path} className={({isActive})=> isActive ? "active_nav" : ""} onClick={() => setIsNavShowing(prev => !prev)}> {name}</NavLink>
                             </li>
                         )
